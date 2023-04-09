@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
+    <title>Consulta CEP</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Consulta cep</h1>
+        <form>
+            <div class="form-groud"><label for="cep">
+                CEP</label>
+                <input type="text" class="form-control" maxlength="9" id="cep">
+                <small>ex: 00000-000</small>
+            </div>
+            <div class="form-groud">
+                <label for="logradouro">
+                    Logradouro</label><input type="text" class="form-control" id="logradouro">
+                    <small>ex: R.</small>
+                </div>
+            <div class="form-groud">
+                <label for="bairro">Bairro
+                    
+                </label><input type="text" class="form-control" id="bairro">
+                <small>ex: Bairro</small>
+            </div>
+            <div class="form-groud">
+                <label for="localidade">Cidade</label>
+                <input type="text" class="form-control" id="localidade">
+                <small>ex: São paulo</small>
+            </div>
+            <div class="form-groud">
+                <label for="uf">Estado</label>
+                <input type="text" class="form-control" id="uf">
+                <small>ex: São paulo</small>
+            </div>           
+        </form>
+    </div>
+    <script src="src/main.js"></script>
+</body>
+</html>
